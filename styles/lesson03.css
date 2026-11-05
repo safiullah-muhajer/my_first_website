@@ -1,0 +1,117 @@
+
+/* Apply box-sizing to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* General page settings */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    padding: 60px;
+    text-align: center;
+    background: linear-gradient(
+    to right,
+    black 30%,
+    red 40% 60%,
+    green 70%
+);
+    color: white;
+}
+
+header p {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    background-color: #333;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Main row: two columns */
+.row {
+    display: flex;
+}
+
+/* Left column */
+.sidebar {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Right column */
+.content {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+    
+}
+
+/* Each article */
+.article {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Image and text side by side */
+.image-group {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Image */
+.article-image {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+}
+
+/* Text beside the image */
+.image-group p {
+    flex: 1;
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    padding: 10px;
+    font-size:smaller;
+    text-align: right;
+    background: linear-gradient(
+    to right,
+    black 30%,
+    red 35% 65%,
+    green 70%
+);
+    color: white;
+}
+.weather-info {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    align-items: flex-start;
+}
+
+.weather-part {
+    flex: 1;
+}

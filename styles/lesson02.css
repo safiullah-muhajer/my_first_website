@@ -1,0 +1,41 @@
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20PX;
+
+        }
+        #container div {
+            flex: 1;
+            width: 500px;
+            /* height: 400px; */
+            /* box-sizing: border-box; */
+            /* display: inline-block; */
+            /* vertical-align: top; */
+            background-color: rgb(16, 246, 96); 
+            border-radius: 10px;
+            /* margin: 10px;
+            padding: 20px; */
+        }
+
+        /* #first {
+            background-color: rgb(20, 100, 198);
+        }
+        #second {
+            background-color: rgb(223, 209, 13);
+        } */
+
+        article img {
+            width: 100px;
+            float: left;
+            padding: 20px;
+        }
+        #container div:nth-child(odd)
+        {
+            background-color: grey;
+        }
+
+        h2, article img {
+            margin: 10px;
+        }
+  
